@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:minHeight="@dimen/dp20"
+            android:id="@+id/message_title"
+            android:text="@string/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="@string/cpu_a"
+            android:id="@+id/cpu_a"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="@string/cpu_b"
+            android:id="@+id/cpu_b"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="@string/iso_15693"
+            android:id="@+id/iso_15693"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="@string/mifare"
+            android:id="@+id/mifare"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="@string/mifare_u"
+            android:id="@+id/mifare_u"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dp30"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_init_dev"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/init_dev"/>
+        <Button
+            android:id="@+id/btn_release_dev"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/release_dev"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:id="@+id/btn_search_card"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/search_card"/>
+
+        <Button
+            android:id="@+id/btn_exec_rats"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/exec_rats"/>
+        <Button
+            android:id="@+id/btn_deselect"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_deselect"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="@dimen/dp30"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        />
+
+        <EditText
+
+            android:id="@+id/et_cmd_input"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_cmd_in"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/sure_cmd"/>
+    </LinearLayout>
+
+
+
+    <EditText
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:isScrollContainer="true"
+        android:scrollbarStyle="insideOverlay"
+        android:hint="@string/show_window"
+        android:id="@+id/et_show"
+        android:layout_width="fill_parent"
+        android:gravity="top"
+        android:background="#ffffff"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        />
+
+
+    </LinearLayout>
+
+

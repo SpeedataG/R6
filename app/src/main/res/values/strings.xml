@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">R6</string>
+    <string name="cpu_a">CPU_A</string>
+    <string name="cpu_b">CPU_B</string>
+    <string name="message">显示信息</string>
+    <string name="init_dev">上电</string>
+    <string name="release_dev">下电</string>
+    <string name="search_card">寻卡</string>
+    <string name="exec_rats">读卡</string>
+    <string name="btn_deselect">移除卡片</string>
+    <string name="show_window">[显示窗口]</string>
+    <string name="iso_15693">ISO_15693</string>
+    <string name="mifare">mifare</string>
+    <string name="mifare_u">mifare_u</string>
+    <string name="title_title">"当前选择的卡片类型: "</string>
+    <string name="title_cpu_a">CPU A</string>
+    <string name="title_cpu_b">CPU B</string>
+    <string name="mifare_title">Mifare</string>
+    <string name="mifare_u_title">Mifare_U</string>
+    <string name="sure">确认</string>
+    <string name="sure_cmd">确认命令</string>
+
+    <string name="ckb_15693_lockblock">Lock Block</string>
+    <string name="ckb_15693_lockafi">Lock AFI</string>
+    <string name="ckb_15693_lockdsfid">Lock DSFID</string>
+    <string name="text_15693_selectitem">Select Test Item</string>
+    <string name="text_15693_prompt">Input a block number to demo\nrange 0 ~ 27</string>
+    <string name="btn_15693_getinfo">Search</string>
+    <string name="msg_error_dev">Open device error!</string>
+
+    <string name="btn_set">DEMO</string>
+    <string name="text_null"></string>
+    <string name="msg_error_input">Input is error</string>
+
+    <string name="msg_mifare_error_dev">Open device error!</string>
+    <string name="msg_mifare_error_block_number">Get Out The Program,Number of block from 0 to 63! THANK YOU </string>
+    <string name="msg_mifare_error_block">Input number is out of Mifare Classic block range</string>
+    <string name="msg_mifare_error_nocard">No card found</string>
+    <string name="msg_mifare_error_auth">Authentication block failed</string>
+    <string name="msg_mifare_error_readvalue">Read value failed</string>
+    <string name="msg_mifare_error_writevalue">Write value failed</string>
+    <string name="msg_mifare_error_readblock">Read block data failed</string>
+    <string name="msg_mifare_error_writeblock">Write block data failed</string>
+    <string name="msg_mifare_error_incvalue">Increment value failed</string>
+    <string name="msg_mifare_error_decvalue">Decrement value failed</string>
+    <string name="msg_mifare_error_haltcard">Halt card failed</string>
+    <string name="msg_mifare_error_compatibility_read">write repeat data from block err, </string>
+    <string name="msg_mifare_ok_findcard">Find a card, ID is </string>
+    <string name="msg_mifare_ok_auth">Authentication block ok</string>
+    <string name="msg_mifare_ok_writeblock">Write data to block ok, data is</string>
+    <string name="msg_mifare_ok_readblock">Read data from block ok, result is</string>
+    <string name="msg_mifare_ok_writevalue">Write value to block ok, value is</string>
+    <string name="msg_mifare_ok_readvalue">Read value from block ok, result is</string>
+    <string name="msg_mifare_ok_incvalue">Successfully increment block\'s value of</string>
+    <string name="msg_mifare_ok_decvalue">Successfully decrement block\'s value of</string>
+    <string name="msg_mifare_ok_haltcard">Halt current card ok</string>
+    <string name="msg_mifare_ok_allok">Test over</string>
+    <string name="msg_mifare_ok_compatibility_read">compatibility write data block ok, date is</string>
+
+
+    <string name="text_mifare_prompt">Please input a block number to demo, range 0 ~ 63</string>
+    <string name="text_ul_prompt">Please input a block number to demo, range 0 ~ 15</string>
+</resources>
